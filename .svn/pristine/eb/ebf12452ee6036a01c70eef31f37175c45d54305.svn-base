@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SlidingMenuTheme" parent="@android:style/Theme.Translucent">
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

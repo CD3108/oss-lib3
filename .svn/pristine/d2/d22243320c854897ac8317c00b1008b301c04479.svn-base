@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sa_share">应用分享</string>
+	<string name="sa_mac_address">MAC地址：</string>
+	<string name="sa_search">刷新</string>
+	<string name="sa_searching">搜索设备中……</string>
+	<string name="sa_exit">退出</string>
+	<string name="sa_confirm_share">确认要分享吗？</string>
+	<string name="sa_tip">请将远程蓝牙设备打开，并且保持可见……</string>
+</resources>

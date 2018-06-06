@@ -1,0 +1,11 @@
+更新内容:去掉了wade-mobile-data需要依赖的第三方jar,如：json-lib-2.2.3-jdk13.jar
+更新人:黄波
+更新时间:2015.4.18
+更新文件:wade-mobile-data.jar
+更新备注:无
+
+更新内容:优化加密，去掉了bcprov-jdk16-140.jar，RSA.java中使用RSA/ECB/PKCS1Padding即可。
+更新人:黄波
+更新时间:2015.10.23
+更新文件:RSA.java
+更新备注:无

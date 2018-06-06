@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="AudioDialogTheme" parent="@android:style/Theme.Dialog">
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置背景色 -->
+        <item name="android:windowBackground">@drawable/audio_activity_dialog</item>
+    </style>
+</resources>

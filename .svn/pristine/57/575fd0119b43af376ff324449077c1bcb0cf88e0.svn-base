@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screenlock_welcome_bg"
+    android:padding="10dp" >
+
+    <com.wade.mobile.common.screenlock.view.LocusPassWordView
+        android:id="@+id/lock_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <TextView
+        android:id="@+id/notify"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="123"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+	<Button
+        android:id="@+id/reset_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:text="重新设置" 
+        android:visibility="invisible"/>
+</RelativeLayout>

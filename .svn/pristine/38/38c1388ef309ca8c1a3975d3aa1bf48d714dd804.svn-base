@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:background="#060514"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/sa_share"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:background="#696969" />
+
+    <ListView
+        android:id="@+id/deviceListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:isScrollContainer="true"
+        android:paddingTop="5dp" >
+    </ListView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:background="#696969" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" >
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:paddingLeft="20dp"
+            android:text="@string/sa_exit"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="1dip"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:background="#696969"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+             />
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/exit"
+            android:layout_marginRight="5dp"
+            android:paddingRight="20dp"
+            android:text="@string/sa_search"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</LinearLayout>
